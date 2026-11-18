@@ -1,0 +1,119 @@
+.birthday-finale{text-align:center;margin:85px auto 20px;padding:60px 20px 25px;max-width:950px;border-top:1px solid #a5c5ff25;background:radial-gradient(ellipse at 50% 60%,#244d8a33,transparent 65%)}
+.finale-eyebrow{font:600 10px/1.6 'DM Sans',sans-serif;letter-spacing:3px;color:#a8c4eb;margin:0 0 18px}
+.birthday-finale h2{font-size:clamp(30px,5vw,48px);font-weight:400;line-height:1.2;margin:0;color:#eef5ff}.birthday-finale h2 em{color:#aac9ff;font-weight:400}.finale-intro{color:#a9bfdf;font:400 13px/1.8 'DM Sans',sans-serif;margin:20px 0}
+.birthday-present{position:relative;display:block;width:min(100%,480px);margin:30px auto 0;border:1px solid #9ebfff44;border-radius:28px;background:linear-gradient(145deg,#122e54b0,#081930e0);padding:30px 20px 28px;color:#eef5ff;cursor:pointer;isolation:isolate;box-shadow:inset 0 0 0 6px #a5c9ff05,0 25px 65px #0002;transition:border-color .3s,transform .3s}.birthday-present:hover{border-color:#b9d4ff88;transform:translateY(-3px)}.birthday-present:focus-visible,.birthday-close:focus-visible{outline:3px solid #eeb5d7;outline-offset:5px}
+.birthday-aura{position:absolute;inset:15%;background:radial-gradient(ellipse,#78aaff30,transparent 65%);z-index:-1}.birthday-sparkles{display:block;color:#b8d5ff;font-size:20px;letter-spacing:65px;padding-left:65px;height:35px}.birthday-sparkles i{font-size:12px;font-style:normal;color:#e1afcf}
+.birthday-box{position:relative;display:block;width:230px;height:220px;margin:0 auto 5px;filter:drop-shadow(0 18px 12px #0004)}.birthday-base{position:absolute;left:15px;top:78px;width:200px;height:136px;border-radius:5px 5px 14px 14px;background:linear-gradient(120deg,#3164b0,#163b79 70%,#102d63);border:1px solid #93b6ee70;box-shadow:inset 0 0 0 8px #8cb5f212,inset 0 13px 12px #0003;overflow:hidden}.birthday-ribbon{position:absolute;top:0;bottom:0;left:80px;width:38px;background:linear-gradient(90deg,#86aee4,#d3e7ff 50%,#83a9db);box-shadow:0 0 12px #0002}.birthday-base img{position:absolute;width:80px;height:64px;object-fit:contain;top:40px;left:60px;filter:drop-shadow(0 4px 5px #13284f88)}
+.birthday-lid{position:absolute;top:58px;left:4px;width:222px;height:35px;border-radius:6px;background:linear-gradient(135deg,#4f7ec5,#234d91);border:1px solid #a8caff99;box-shadow:0 6px 9px #0003;transition:transform .7s cubic-bezier(.2,.8,.2,1)}.birthday-lid:after{content:'';position:absolute;left:92px;top:0;width:38px;height:100%;background:linear-gradient(90deg,#92b6e6,#deeeff,#89acd9)}.birthday-bow{position:absolute;bottom:30px;width:66px;height:38px;border:9px solid #bad4f5;box-shadow:inset 0 0 0 2px #648cca,0 2px 4px #0003}.birthday-bow.left{right:108px;border-radius:65% 60% 10% 60%;transform:rotate(25deg)}.birthday-bow.right{left:108px;border-radius:60% 65% 60% 10%;transform:rotate(-25deg)}.birthday-knot{position:absolute;bottom:23px;left:96px;width:29px;height:23px;border-radius:9px;background:#d1e5ff;z-index:2}.birthday-light{position:absolute;left:35px;top:45px;width:160px;height:130px;background:linear-gradient(0deg,#c9e1ffb0,transparent);filter:blur(14px);opacity:0;transition:opacity .5s}
+.birthday-present.unwrapping .birthday-lid{transform:translateY(-65px) rotate(-12deg)}.birthday-present.unwrapping .birthday-light{opacity:1}.birthday-present.is-opened .birthday-lid{transform:translateY(-25px) rotate(-7deg)}.birthday-present.is-opened.unwrapping .birthday-lid{transform:translateY(-65px) rotate(-12deg)}.birthday-present-title{display:block;font:400 25px/1.4 Georgia,serif}.birthday-present-status{display:block;margin-top:10px;color:#abc5e9;font:500 10px/1.5 'DM Sans',sans-serif;letter-spacing:1.6px}.birthday-lock-status{min-height:24px;color:#d8c4e0;font:400 12px/1.8 'DM Sans',sans-serif;margin:20px 0 0}
+#birthday-wishes-dialog{position:fixed;inset:0;width:100%;height:100dvh;max-width:100%;max-height:100dvh;border:0;margin:0;padding:24px;background:transparent;color:#edf5ff;box-sizing:border-box;overflow:hidden}#birthday-wishes-dialog[open]{display:grid;place-items:center}#birthday-wishes-dialog::backdrop{background:#020a1bd0;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}.birthday-wishes-panel{position:relative;width:min(100%,760px);max-height:calc(100dvh - 48px);background:radial-gradient(ellipse at top,#244779,#0b1c38 70%);border:1px solid #a9c9ff70;border-radius:25px;box-shadow:0 30px 120px #0008,inset 0 0 0 7px #afd4ff08;overflow:hidden;outline:none}.birthday-panel-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 24px;border-bottom:1px solid #a9caff22;font:500 9px 'DM Sans',sans-serif;letter-spacing:2px;color:#abc5ea}.birthday-close{background:#accaff15;border:1px solid #b9d4ff55;border-radius:24px;padding:9px 15px;color:#e9f2ff;font:500 12px 'DM Sans',sans-serif;cursor:pointer}.birthday-panel-scroll{text-align:center;padding:36px 30px;max-height:calc(100dvh - 140px);overflow:auto;box-sizing:border-box}.birthday-panel-lotus{width:85px;height:70px;object-fit:contain;margin:0 auto 22px}.birthday-panel-scroll h2{font:400 clamp(30px,6vw,48px)/1.2 Georgia,serif;margin:18px 0 25px;color:#edf4ff}.birthday-panel-rule{width:70px;height:1px;background:#d5accf80;margin:0 auto}#birthday-wishes-content{min-height:100px}.birthday-panel-signature{font:400 14px/1.8 Georgia,serif;color:#d9b7d3}.birthday-panel-signature strong{letter-spacing:2px;font-size:12px}.birthday-confetti{pointer-events:none}.birthday-reveal .birthday-wishes-panel{animation:birthdayUnfold .85s cubic-bezier(.16,.8,.2,1) both}@keyframes birthdayUnfold{from{opacity:0;transform:translate(var(--birthday-x,0px),var(--birthday-y,30px)) scale(.12) rotate(-5deg)}to{opacity:1;transform:translate(0,0) scale(1) rotate(0)}}
+@media(max-width:580px){.birthday-finale{margin-top:45px;padding:40px 0 10px}.birthday-present{width:100%;padding:25px 12px}.birthday-box{transform:scale(.9);margin-top:-5px;margin-bottom:-10px}.birthday-sparkles{letter-spacing:45px;padding-left:45px}#birthday-wishes-dialog{padding:14px}.birthday-wishes-panel{max-height:calc(100dvh - 28px)}.birthday-panel-scroll{padding:30px 22px}.birthday-panel-toolbar{padding:15px}.finale-eyebrow{font-size:9px;letter-spacing:2px}}
+@media(prefers-reduced-motion:reduce){.birthday-present,.birthday-lid,.birthday-light{transition:none}.birthday-reveal .birthday-wishes-panel{animation:none}}
+
+/* The birthday gift belongs to the same grid, at two-card width. */
+.gifts>.birthday-finale{grid-column:1 / -1;position:relative;display:flex;align-self:stretch;min-width:0;max-width:none;margin:0;padding:0;border:0;background:none;text-align:center}
+.gifts .birthday-present{width:100%;height:100%;min-height:310px;margin:0;padding:24px 18px 22px;border-radius:18px;border:1px solid #e7bf6480;background:radial-gradient(ellipse at 50% 45%,#c79a3033,transparent 65%),linear-gradient(135deg,#192c49,#12203a);box-shadow:inset 0 0 22px #efc56812,0 0 24px #e9b94e26;overflow:hidden;animation:birthdayGoldenGlow 3.5s ease-in-out infinite}
+.birthday-grid-day{display:block;font:600 10px/1.5 'DM Sans',sans-serif;letter-spacing:2px;color:#ecd49e;margin-bottom:8px}
+.gifts .birthday-present:after{content:'';position:absolute;inset:-70%;background:linear-gradient(115deg,transparent 43%,#fff1b500 46%,#fff0b530 50%,#fff1b500 54%,transparent 57%);transform:translateX(-65%);animation:birthdayGoldShine 5s ease-in-out infinite;pointer-events:none;z-index:3}
+.gifts .birthday-aura{inset:5%;background:radial-gradient(ellipse,#ffd57535,transparent 65%)}
+.gifts .birthday-sparkles{height:18px;font-size:14px;color:#ffe4a0;letter-spacing:55px;padding-left:55px}.gifts .birthday-sparkles i{color:#fff3cc}
+.gifts .birthday-base{background:linear-gradient(120deg,#f0cf76,#ba852b 65%,#8a5b18);border-color:#ffe8a3;box-shadow:inset 0 0 0 8px #ffe3a21c,inset 0 13px 12px #70470f55}
+.gifts .birthday-ribbon,.gifts .birthday-lid:after{background:linear-gradient(90deg,#e4bd5d,#fff1b9 50%,#d6a746)}
+.gifts .birthday-lid{background:linear-gradient(135deg,#ffe49a,#d6a445 60%,#ac751f);border-color:#ffedba;box-shadow:0 6px 12px #5c390b55}
+.gifts .birthday-bow{border-color:#ffe5a1;box-shadow:inset 0 0 0 2px #bd8c32,0 2px 4px #65431b55}.gifts .birthday-knot{background:#fff0bd}.gifts .birthday-light{background:linear-gradient(0deg,#ffe9a8,transparent)}
+.gifts .birthday-present-title{font-size:24px;color:#fff0c5}.gifts .birthday-present-status{color:#e9d19a}.gifts .birthday-lock-status{position:absolute;bottom:8px;left:12px;right:12px;z-index:4;margin:0;min-height:0;color:#fff0c9;background:#102039ef;border-radius:8px;font-size:11px}.gifts .birthday-lock-status:empty{display:none}
+@keyframes birthdayGoldenGlow{0%,100%{box-shadow:inset 0 0 22px #efc56812,0 0 18px #e9b94e20}50%{box-shadow:inset 0 0 30px #efc56824,0 0 32px #e9b94e40}}
+@keyframes birthdayGoldShine{0%,30%{transform:translateX(-65%)}80%,100%{transform:translateX(65%)}}
+@media(max-width:580px){.gifts .birthday-present{min-height:300px;padding:20px 12px}.gifts .birthday-box{margin-top:0}.gifts .birthday-present-title{font-size:23px}}
+@media(prefers-reduced-motion:reduce){.gifts .birthday-present,.gifts .birthday-present:after{animation:none}.gifts .birthday-present:after{display:none}}
+
+/* Supplied lotus artwork, preserved without cropping. */
+.gifts .birthday-artwork{position:relative;display:block;width:min(100%,370px);margin:12px auto 20px;border-radius:16px;box-shadow:0 0 25px #eac47255;transition:transform .8s cubic-bezier(.2,.8,.2,1),filter .8s;overflow:hidden}
+.gifts .birthday-artwork img{display:block;width:100%;height:auto;border-radius:16px}
+.gifts .birthday-present.unwrapping .birthday-artwork{transform:translateY(-18px) scale(1.06);filter:brightness(1.2);box-shadow:0 0 65px #ffe6a5bb}
+.gifts .birthday-present.is-opened .birthday-artwork{box-shadow:0 0 30px #f7d88166}
+.gifts .birthday-sparkles{display:none}
+@media(prefers-reduced-motion:reduce){.gifts .birthday-artwork{transition:none}.gifts .birthday-present.unwrapping .birthday-artwork{transform:none;filter:none}}
+
+/* Transparent artwork and a brighter, luminous gold card. */
+.gifts .birthday-artwork,.gifts .birthday-present.is-opened .birthday-artwork{border-radius:0;box-shadow:none;overflow:visible;filter:drop-shadow(0 0 12px #ffd67566)}
+.gifts .birthday-artwork img{border-radius:0;background:transparent}
+.gifts .birthday-present.unwrapping .birthday-artwork{box-shadow:none;filter:brightness(1.18) drop-shadow(0 0 30px #ffe5a6)}
+.gifts .birthday-present{border-color:#ffe29dbb;background:radial-gradient(ellipse at 50% 45%,#dbac4a4d,transparent 70%),linear-gradient(135deg,#283e60,#152641 50%,#344162);animation:birthdayRadiance 3.2s ease-in-out infinite}
+.gifts .birthday-present:after{background:linear-gradient(115deg,transparent 40%,#fff1b500 44%,#fff2ba50 50%,#fff1b500 56%,transparent 60%);animation-duration:4s}
+@keyframes birthdayRadiance{0%,100%{box-shadow:inset 0 0 30px #f6d17c20,0 0 24px #efbd4e45,0 0 50px #e6ad2b15}50%{box-shadow:inset 0 0 48px #f6d17c38,0 0 38px #efbd4e70,0 0 75px #e6ad2b30}}
+#locked-status.birthday-blue-status{background:linear-gradient(135deg,#164887f5,#123368fa);border-color:#72beffb3;color:#d3edff;box-shadow:0 12px 40px #0006,0 0 22px #4b9fff40}
+@media(prefers-reduced-motion:reduce){.gifts .birthday-present{animation:none;box-shadow:inset 0 0 30px #f6d17c20,0 0 28px #efbd4e50}}
+/* Lotus opening sequence adapted from Lotus_Gift_Opening.html. */
+.gifts .birthday-artwork{aspect-ratio:1312/1199;isolation:isolate;perspective:900px;margin-top:38px;overflow:visible}
+.gifts .birthday-artwork .lotus-layer{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.lotus-body{clip-path:inset(42% 0 0);z-index:3}.lotus-lid{clip-path:inset(0 0 58%);z-index:5;transform-origin:50% 38%;will-change:transform}
+.lotus-halo{position:absolute;inset:32% 10% 0;border-radius:50%;background:radial-gradient(ellipse,#ffd77d55,transparent 65%);filter:blur(20px);z-index:-1}
+.lotus-inside{position:absolute;left:6%;right:6%;top:41%;height:9%;border:3px solid #e9bd68;border-radius:50%;background:radial-gradient(ellipse,#fff4c3,#dba947 48%,#62411e 90%);opacity:0;z-index:2}
+.lotus-light{position:absolute;left:12%;right:12%;top:8%;height:45%;background:conic-gradient(from 150deg at 50% 100%,transparent,#ffe4a988,transparent 60deg);filter:blur(15px);opacity:0;z-index:1;pointer-events:none}
+.lotus-spark{position:absolute;left:50%;top:44%;width:5px;height:5px;border-radius:50%;background:#fff2bb;box-shadow:0 0 10px #ffda7e;opacity:0;z-index:6;pointer-events:none}
+.gifts .birthday-present.unwrapping .birthday-artwork{transform:none;filter:drop-shadow(0 0 25px #ffe5a688);animation:lotusShake .58s ease-in-out}
+.unwrapping .lotus-lid{animation:lotusLift 1.8s cubic-bezier(.22,.7,.25,1) .5s forwards}.is-opened .lotus-lid{transform:translateY(-24%) rotate(-8deg) scale(.97)}
+.unwrapping .lotus-inside{animation:lotusAppear .4s .65s forwards}.is-opened .lotus-inside{opacity:1}.unwrapping .lotus-light{animation:lotusBeam 2s .6s forwards}.unwrapping .lotus-spark{animation:lotusSpark 1.9s var(--delay) ease-out forwards}
+@keyframes lotusShake{20%,60%{transform:rotate(-1.5deg)}40%,80%{transform:rotate(1.5deg)}100%{transform:rotate(0)}}
+@keyframes lotusLift{0%{transform:translateY(0)}30%{transform:translateY(-3%) rotate(-2deg)}100%{transform:translateY(-24%) rotate(-8deg) scale(.97)}}
+@keyframes lotusAppear{to{opacity:1}}@keyframes lotusBeam{0%{opacity:0;transform:scaleX(.4)}35%{opacity:1}100%{opacity:.55;transform:scaleX(1.2)}}@keyframes lotusSpark{12%{opacity:1}100%{opacity:0;transform:translate(var(--sx),var(--sy)) scale(.15)}}
+#birthday-wishes-title{margin:0 auto 24px}.birthday-heading-art{display:block;width:100%;max-width:590px;height:auto;margin:auto}
+.birthday-wishes-intro{font:600 16px/1.7 'DM Sans',sans-serif;color:#d6e5ff;max-width:490px;margin:0 auto 28px}
+.person-wish{margin:36px auto;padding:28px 24px;max-width:580px;border:1px solid #b5ccf12b;border-radius:20px;background:linear-gradient(145deg,#25467355,#14294d55)}
+.person-wish h3{font:400 28px/1.3 Georgia,serif;color:#f4d597;margin:0 0 22px}.person-wish>img{display:block;width:auto;max-width:100%;height:auto;max-height:480px;object-fit:contain;border-radius:12px;margin:0 auto 24px}
+.person-message{white-space:pre-wrap;text-align:left;font:500 16px/1.9 'DM Sans',sans-serif;color:#e7efff;overflow-wrap:anywhere;margin:0}.wish-message-blank{min-height:110px}.wish-photo-blank{height:240px;border-radius:12px;border:1px solid #b9d2ff20;background:#0b1c3822;margin-bottom:24px}
+#birthday-wishes-dialog>.birthday-wishes-panel{width:min(100%,820px)}
+#birthday-wishes-dialog .birthday-confetti{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:10}
+.grand-confetti{position:absolute;top:-30px;opacity:0;animation:grandConfettiFall 5s linear forwards}
+@keyframes grandConfettiFall{5%{opacity:1}85%{opacity:1}100%{opacity:0;transform:translate(var(--drift),110vh) rotate(var(--spin))}}
+@media(max-width:580px){.person-wish{padding:22px 16px;margin:26px auto}.person-message{font-size:15px;line-height:1.85}.birthday-wishes-intro{font-size:14px}.person-wish h3{font-size:25px}.birthday-panel-scroll{padding:26px 16px}.gifts .birthday-artwork{margin-top:32px}}
+@media(prefers-reduced-motion:reduce){.unwrapping .lotus-lid,.unwrapping .lotus-inside,.unwrapping .lotus-light,.unwrapping .lotus-spark,.gifts .birthday-present.unwrapping .birthday-artwork{animation:none}.lotus-spark,.grand-confetti{display:none}}
+
+/* Reflective foil confetti: highlights belong to each tumbling piece. */
+.grand-confetti{background:linear-gradient(125deg,var(--foil) 0%,#fff7d4 18%,var(--foil) 34%,#ffffff 48%,var(--foil) 57%,#604619 100%);border:1px solid #fff4d677;box-shadow:inset 1px 1px 1px #fff9,0 0 7px color-mix(in srgb,var(--foil),transparent 35%);perspective:200px}
+.grand-confetti:after{content:'';position:absolute;inset:0;background:linear-gradient(110deg,transparent 20%,#fff 50%,transparent 80%);animation:foilGlint .85s ease-in-out infinite alternate;mix-blend-mode:screen}
+.grand-confetti.foil-star{clip-path:polygon(50% 0,62% 35%,100% 50%,62% 65%,50% 100%,38% 65%,0 50%,38% 35%);border:0}
+@keyframes foilGlint{from{opacity:.08;transform:scaleX(.2)}to{opacity:.95;transform:scaleX(1)}}
+@keyframes grandConfettiFall{0%{opacity:0;transform:translate(0,0) rotateX(0) rotateY(0)}5%{opacity:1}45%{filter:brightness(1.25)}85%{opacity:1}100%{opacity:0;transform:translate(var(--drift),110vh) rotate(var(--spin)) rotateX(540deg) rotateY(360deg)}}
+@media(prefers-reduced-motion:reduce){.grand-confetti:after{animation:none}}
+
+/* A keepsake card rises as the lid opens, then expands into the pane. */
+.lotus-keepsake-card{position:absolute;left:30%;top:42%;width:40%;height:38%;border:1px solid #f3d79b;border-radius:8px;background:linear-gradient(145deg,#315584,#102a50);box-shadow:0 0 24px #ffdf9a80;opacity:0;z-index:2;display:grid;place-items:center;transform:translateY(20%) scale(.7)}
+.gifts .birthday-artwork .lotus-keepsake-card img{position:static;width:42%;height:auto}
+.unwrapping .lotus-keepsake-card{animation:keepsakeEmerge .65s .35s cubic-bezier(.15,.7,.2,1) forwards}
+.unwrapping .lotus-lid{animation-duration:.8s;animation-delay:.15s}.unwrapping .lotus-inside{animation-delay:.3s}.unwrapping .lotus-light{animation-delay:.3s}
+@keyframes keepsakeEmerge{0%{opacity:0;transform:translateY(20%) scale(.7)}30%{opacity:1}100%{opacity:1;transform:translateY(-85%) scale(1.1)}}
+.birthday-reveal .birthday-wishes-panel{transform-origin:50% 50%;animation:birthdayCardExpand .65s cubic-bezier(.16,.85,.2,1) both}
+@keyframes birthdayCardExpand{from{opacity:.25;transform:translate(var(--birthday-x,0px),var(--birthday-y,30px)) scale(.15) rotate(-3deg)}to{opacity:1;transform:translate(0,0) scale(1) rotate(0)}}
+#birthday-wishes-title{margin:0 auto 12px!important}.birthday-wishes-intro{margin:0 auto 14px;line-height:1.6}.birthday-panel-rule{margin:0 auto 12px}#birthday-wishes-content>.person-wish:first-child{margin-top:18px}.birthday-panel-scroll{padding-top:22px}
+@media(prefers-reduced-motion:reduce){.unwrapping .lotus-keepsake-card,.birthday-reveal .birthday-wishes-panel{animation:none}.lotus-keepsake-card{display:none}}
+/* The main gift is a midnight keepsake album. */
+#birthday-wishes-dialog .birthday-wishes-panel{border:1px solid #d8bb7680;background:radial-gradient(ellipse at 50% 0,#28466f 0,transparent 55%),linear-gradient(135deg,#0a1d39,#112848 50%,#081a34);box-shadow:0 30px 100px #0009,inset 0 0 0 5px #dfbd6b09,0 0 35px #ebbe5a18}
+#birthday-wishes-dialog .birthday-panel-toolbar{border-bottom-color:#d8bb762b;background:#0b1c3866;color:#e5cf9d}
+#birthday-wishes-dialog .birthday-panel-scroll{background-image:radial-gradient(#ecd89e16 .6px,transparent .6px);background-size:17px 17px}
+#birthday-wishes-dialog .birthday-heading-art{max-width:540px;filter:drop-shadow(0 3px 15px #e3b25425)}
+#birthday-wishes-dialog .birthday-wishes-intro{font-size:14px;font-weight:400;max-width:430px;color:#d4e1f7;margin-bottom:12px}
+.album-dedication{display:grid;grid-template-columns:65px 40px 65px;align-items:center;justify-content:center;gap:7px;margin:12px auto 24px}.album-dedication>img{width:40px;height:32px;object-fit:contain}.album-dedication>span{height:1px;background:linear-gradient(90deg,transparent,#d7b773)}.album-dedication>span:nth-of-type(2){transform:rotate(180deg)}.album-dedication p{grid-column:1/-1;font:italic 16px/1.5 Georgia,serif;color:#e2c995;margin:0;text-align:center;white-space:nowrap}
+#birthday-wishes-dialog .person-wish{position:relative;border:0;border-top:1px solid #d7b77344;border-bottom:1px solid #d7b77322;border-radius:4px 4px 18px 18px;background:linear-gradient(150deg,#29476a65,#10254170);padding:30px 25px 24px;box-shadow:0 14px 30px #0002;margin:24px auto 36px}
+#birthday-wishes-dialog .person-wish h3{font-family:'Snell Roundhand','Segoe Script','Brush Script MT',Georgia,cursive;font-style:italic;font-size:31px;color:#f1d598;text-shadow:0 2px 12px #e3b25420;margin-bottom:24px}
+#birthday-wishes-dialog .person-wish>.album-photo{border:1px solid #e4c589;padding:6px;background:#091b33;border-radius:3px;box-shadow:0 10px 26px #0005,0 0 0 3px #d5b97916;max-width:100%;box-sizing:border-box}
+#birthday-wishes-dialog .person-wish>.album-corner{position:absolute;right:8px;top:8px;width:35px;height:28px;margin:0;object-fit:contain;opacity:.65;pointer-events:none;border:0;border-radius:0}
+#birthday-wishes-dialog .person-message:not(.wish-message-blank){font-family:Georgia,serif;font-size:17px;font-weight:400;line-height:1.9;padding:20px 20px 18px;border-left:2px solid #d8b97766;background:linear-gradient(100deg,#e5c88c0c,transparent);color:#eef1f7}
+#birthday-wishes-dialog .wish-photo-blank{border-color:#d7b77333;border-radius:3px}
+#birthday-wishes-dialog .birthday-panel-signature{margin-top:32px;color:#e8c0d7}
+@media(max-width:580px){#birthday-wishes-dialog .person-wish{padding:26px 16px 20px}#birthday-wishes-dialog .person-message:not(.wish-message-blank){padding:15px 12px;font-size:16px}#birthday-wishes-dialog .birthday-wishes-intro{font-size:13px;line-height:1.6}.album-dedication{margin:8px auto 20px}.album-dedication p{font-size:15px}#birthday-wishes-dialog .person-wish h3{font-size:29px}}
+/* Clean glass keepsakes with full-card gold scratch covers. */
+#birthday-wishes-dialog .person-wish{border:1px solid #c6dcff3d;border-radius:18px;background:linear-gradient(135deg,#a4c8ff1b,#b6d5ff09 55%,#91b6ef14);box-shadow:inset 0 1px 0 #ffffff20,0 16px 35px #0003;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);overflow:hidden}
+#birthday-wishes-dialog .person-wish h3{font-family:'Times New Roman',Times,serif;font-style:normal;font-weight:400;font-size:30px;color:#ffe4ae;text-shadow:0 0 10px #eec76b55,0 0 25px #eec76b30}
+#birthday-wishes-dialog .person-wish .album-corner{display:none}
+#birthday-wishes-dialog .person-wish .album-photo{display:block;width:auto;max-width:100%;height:auto;max-height:480px;object-fit:contain;padding:0;border:1px solid #dbc59577;border-radius:9px;box-shadow:0 6px 20px #0003;margin:0 auto 24px;background:transparent;box-sizing:border-box}
+#birthday-wishes-dialog .person-message:not(.wish-message-blank){font-family:Georgia,serif;border:0;background:none;padding:3px 0 0;font-size:16px;line-height:1.9;color:#edf3ff}
+.scratch-cover{position:absolute;inset:0;z-index:2;background:linear-gradient(130deg,#b18a40,#f7df9d,#c59b49);border-radius:inherit;overflow:hidden;transition:opacity .4s,filter .4s}
+.scratch-cover.scratch-ready{background:transparent}.scratch-cover canvas{display:block;width:100%;height:100%;touch-action:none;cursor:crosshair;border-radius:inherit}.scratch-cover canvas:focus-visible{outline:3px solid #e9b7d8;outline-offset:-7px}
+.scratch-revealed .scratch-cover{opacity:0;filter:brightness(1.6);pointer-events:none}.scratch-content:focus{outline:none}
+@media(max-width:580px){#birthday-wishes-dialog .person-wish h3{font-size:28px}.scratch-cover canvas{cursor:auto}}
+@media(prefers-reduced-motion:reduce){.scratch-cover{transition:none}}
+
+/* Allow free-direction scratching on the gold cover. */
+.scratch-cover canvas{touch-action:none}

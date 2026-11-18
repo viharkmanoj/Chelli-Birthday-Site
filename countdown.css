@@ -1,0 +1,22 @@
+.birthday-countdown{position:relative;max-width:510px;margin:38px auto 0;padding:0 8px;color:#edf4ff}
+.birthday-countdown .flip-caption{margin:0 0 18px!important;font-family:'DM Sans',sans-serif;font-size:10px!important;font-weight:600;letter-spacing:2.5px;line-height:1.5;color:#adc6ec!important}
+.flip-units{display:flex;justify-content:center;gap:24px}
+.flip-unit{position:relative;flex:1;min-width:0}
+.flip-unit:not(:last-child):after{content:':';position:absolute;top:17px;right:-16px;color:#6684b0;font:26px/1.2 sans-serif}
+.flip-digits{display:flex;gap:4px}
+.flip-digit{position:relative;display:block;flex:1;height:68px;perspective:400px;font:600 47px/68px 'DM Sans',sans-serif;font-variant-numeric:tabular-nums;color:#eef5ff;border-radius:6px;box-shadow:0 5px 12px #0003}
+.flip-half{position:absolute;left:0;width:100%;height:50%;overflow:hidden;box-sizing:border-box;background:#17345d;backface-visibility:hidden;border:1px solid #ffffff12}
+.flip-half>span{position:absolute;left:0;width:100%;height:68px;text-align:center}
+.flip-half.top,.flip-half.moving-top{top:0;border-radius:6px 6px 0 0;border-bottom:1px solid #06152d;transform-origin:bottom}
+.flip-half.bottom,.flip-half.moving-bottom{bottom:0;border-radius:0 0 6px 6px;background:#112b50;transform-origin:top}
+.flip-half.bottom>span,.flip-half.moving-bottom>span{top:-34px}
+.flip-half.moving-top,.flip-half.moving-bottom{display:none;z-index:2}
+.flip-digit.flipping .moving-top{display:block;animation:chelliFlipTop .3s ease-in forwards}
+.flip-digit.flipping .moving-bottom{display:block;transform:rotateX(90deg);animation:chelliFlipBottom .3s .3s ease-out forwards}
+.flip-label{display:block;margin-top:12px;font:500 9px/1.5 'DM Sans',sans-serif;text-transform:uppercase;letter-spacing:1.7px;color:#96afd1}
+.birthday-countdown .flip-date{margin:17px 0 0!important;font:400 11px/1.6 'DM Sans',sans-serif!important;letter-spacing:.5px;color:#8ea9d0!important}
+.flip-accessible{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@keyframes chelliFlipTop{to{transform:rotateX(-90deg)}}
+@keyframes chelliFlipBottom{to{transform:rotateX(0)}}
+@media(max-width:580px){.birthday-countdown{max-width:350px;margin-top:30px;padding:0}.flip-units{gap:14px}.flip-digits{gap:3px}.flip-digit{height:51px;font-size:32px;line-height:51px}.flip-half>span{height:51px}.flip-half.bottom>span,.flip-half.moving-bottom>span{top:-25.5px}.flip-unit:not(:last-child):after{top:13px;right:-10px;font-size:21px}.flip-label{font-size:8px;letter-spacing:1px}.birthday-countdown .flip-caption{font-size:9px!important;letter-spacing:2px}}
+@media(prefers-reduced-motion:reduce){.flip-digit.flipping .moving-top,.flip-digit.flipping .moving-bottom{display:none;animation:none}}
