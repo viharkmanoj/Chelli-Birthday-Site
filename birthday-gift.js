@@ -4,7 +4,7 @@
   {
     "name": "Moahith",
     "image": "birthday-people/moahith.jpeg",
-    "message": "Hey bangaram, happy birthday baby. You always put others before u, sacrifice yourself for others happiness even when it's hurting you. I want you to from now on, to the best of your abilities put yourself first cuz u deserve it, it includes me too im no exception. Ik we don't spend much time together il try my best to get on discord with you , and I love u , u mean the world to meee byee"
+    "message": "Hey bangaram, happy birthday baby. You always put others before u, sacrifice yourself for others happiness even when it's hurting you. I want you to from now on do the best of your abilities put yourself first cuz u deserve it, it includes me too im no exception. Ik we don't spend much time together il try my best to get on discord with you , and I love u , u mean the world to meee byee"
   },
   {
     "name": "Jayani",
