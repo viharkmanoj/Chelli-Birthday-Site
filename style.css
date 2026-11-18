@@ -49,3 +49,18 @@ body.letter-visible>header,body.letter-visible>main,body.letter-visible>.grain,b
 .close-message{margin-left:auto;border:1px solid #d5b4d16b;border-radius:20px;padding:8px 13px;background:#dcbbdb16;color:#f5dbeb;font:600 11px 'DM Sans',sans-serif;cursor:pointer}.close-message:hover{background:#dcbbdb30}.close-message:focus-visible{outline:2px solid #f5b8d8;outline-offset:3px}
 
 .gift.locked .action:after{content:none}
+
+.brand {
+  font-size: 40px;
+}
+
+@media (max-width: 580px) {
+  .brand {
+    font-size: 26px;
+  }
+}
+
+.brand-lotus {
+  width: 40px;
+  height: auto;
+}
