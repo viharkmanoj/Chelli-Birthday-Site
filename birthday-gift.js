@@ -4,7 +4,7 @@
   {
     "name": "Moahith",
     "image": "birthday-people/moahith.jpeg",
-    "message": "Hey bangaram, happy birthday baby. You always put others before u, sacrifice yourself for others happiness even when it's hurting you. I want you to from now on to the best of your abilities put yourself first cuz u deserve it, it includes me too im no exception. Ik we don't spend much time together il try my best to get on discord with you , and I love u , u mean the world to meee byee"
+    "message": "Hey bangaram, happy birthday baby. You always put others before u, sacrifice yourself for others happiness even when it's hurting you. I want you to from now on, to the best of your abilities put yourself first cuz u deserve it, it includes me too im no exception. Ik we don't spend much time together il try my best to get on discord with you , and I love u , u mean the world to meee byee"
   },
   {
     "name": "Jayani",
@@ -23,7 +23,7 @@
   },
   {
     "name": "Shuvetha",
-    "image": "birthday-people/shuvetha.jpeg",
+    "image": "birthday-people/shuvetha.JPG",
     "message": "I hope shan gets everything and more than she gives⭐️ and god bless her with all 3B👅💗. I hope everyone is shan to you and are surrounded by many more shanvie because that’s how amazing you are 😁.i hope all ur dreams come true the once we have discussed and the one we have not💋.i hope u heal from everything and be shaaanaaaviii 💗✨.i secretly wish i will sing at ur wedding and we stay frnds till then 😁✨."
   },
   {
