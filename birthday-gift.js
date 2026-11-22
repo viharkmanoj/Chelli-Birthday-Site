@@ -41,6 +41,11 @@
     "image": "",
     "message": ""
   }
+  {
+    "name": "ANNAIYA",
+    "image": "",
+    "message": ""
+  }
 ];
   const unlock = Date.parse('2026-12-04T00:00:00+05:30');
   const key = 'chelli-birthday-gift-opened-2026';
