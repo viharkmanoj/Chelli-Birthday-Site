@@ -9,9 +9,7 @@
   {
     "name": "Jayani",
     "image": "birthday-people/jayani.jpeg",
-    "message": "My quiet wish for you
-
-Of course just like all others I wish you happiness and health but deep down from the bottom of my heart my quiet wish is that you find your peace and I really hope you receive all the love, happiness, patience and time that you've given others 💕"
+    "message": "My quiet wish for you, Of course just like all others I wish you happiness and health but deep down from the bottom of my heart my quiet wish is that you find your peace and I really hope you receive all the love, happiness, patience and time that you've given others 💕"
   },
   {
     "name": "Vichu",
